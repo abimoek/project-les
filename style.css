@@ -75,6 +75,33 @@ nav{
 	padding-left: 150px;
 }
 
+.kontak {
+	background-color: aquamarine;
+	padding-bottom: 25px;
+	margin: 50px;
+	border-radius: 15px;
+	border: 2px red solid;
+	height: 200px;
+}
+
+.kontak b {
+	background: linear-gradient(90deg, red 50%,blue);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	font-size: 35px;
+}
+
+.kontak img:hover{
+	width: 125px
+}
+
+.tentang {
+	background-color: orangered;
+	padding: 15px;
+	margin: 50px;
+	
+}
+
 .rgradient{
 	background:linear-gradient(red,yellow,green,blue);
 	-webkit-background-clip:text;
