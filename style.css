@@ -1,0 +1,81 @@
+body{
+	background-color: black;
+	text-align:center;
+	font-family: arial;
+	padding-bottom:25px;
+	color:white;
+}
+
+
+header{
+	background: black;
+	color:white;
+	padding:10px;
+}
+
+nav{
+	text-align:center;
+	padding-left:35px;
+	font-size:50px;
+}
+
+
+.row{
+	display:flex;
+}
+
+.column{
+	flex:50%;
+	padding:10px;
+}
+
+/* end of row and column */
+
+.perkenalan{
+	background-color:grey;
+	margin:50px;
+	border-radius:50px;
+	color:white;
+}
+.perkenalan img {
+	padding:5%;
+}
+
+.perkenalan h4{
+	text-align: left;
+	font-size: 50px
+}
+
+.perkenalan p{
+	text-align: left;
+	font-size: 25px
+}
+
+.biodata {
+	background-color: grey;
+	margin: 50px;
+    border-radius: 25px
+    font-size 25px
+    padding:15px;
+}
+
+.biodata .header {
+	background: linear-gradient(90deg,black)
+	border-radius:20px;
+	color: white;
+}
+.biodata h1 .biodata h3 {
+	margin: 5px;
+}
+
+.biodata .tabel {
+	font-family: calibri
+}
+.biodata .list{
+	padding-left: 150px;
+}
+
+.rgradient{
+	background:linear-gradient(red,yellow,green,blue);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
